@@ -27,7 +27,7 @@ import javax.swing.UnsupportedLookAndFeelException;
  */
 
 /**
- * @author info
+ * @author Lakhdara zakaria and Oussalah Yasser 
  *
  * TODO To change the template for this generated type comment go to
  * Window - Preferences - Java - Code Style - Code Templates
@@ -114,10 +114,10 @@ public class Mdpasse extends Frame{
 					con = DriverManager.getConnection (loc,"Administrateur","1987");
 				}
 				catch (ClassNotFoundException cnf)  {
-					Listedoc.message ("Driver non chargé...","Base de donnée");
+					Listedoc.message ("Driver non chargÃ©...","Base de donnÃ©e");
 				}
 				catch (SQLException sqlex) {
-					Listedoc.message ( "Incapable de connecter à la base de données...","Base de donnée");
+					Listedoc.message ( "Incapable de connecter Ã  la base de donnÃ©es...","Base de donnÃ©e");
 		 		}
 				
 				confirmer(table1);
